@@ -1,0 +1,73 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.header {
+  text-align: center;
+}
+.main-card {
+  height: 30rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+.main-card h3 {
+  text-align: center;
+}
+.main-score-card {
+  height: 4rem;
+  width: 10rem;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+.main-score-div {
+  position: absolute;
+}
+#user-text {
+  left: 1rem;
+  padding: 4px;
+}
+#comp-text {
+  padding: 4px;
+  left: 6rem;
+}
+.scores {
+  margin-top: 2rem;
+}
+.user-score-num {
+  margin-left: -0.5rem;
+}
+.colon {
+  margin-left: 25%;
+}
+.comp-score-num {
+  margin-left: 2.3rem;
+}
+.select-div {
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.result-div {
+  margin: 3rem auto;
+  text-align: center;
+}
+.game-data {
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.img-div {
+  display: inline-block;
+  margin: 1rem auto;
+}
+.pic-img {
+  height: 8rem;
+  width: 9rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}

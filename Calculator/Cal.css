@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  font-weight: normal;
+}
+body {
+  padding: 0%;
+  margin: 0;
+  /* background: linear-gradient(to right, rgb(72, 111, 196), rgb(72, 196, 82)); */
+}
+.container-grid {
+  padding: 7%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 80px);
+}
+.container-grid button {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: rgb(206, 238, 206);
+  outline: none;
+  font-size: 2rem;
+}
+.container-grid button:hover {
+  background-color: white;
+}
+.span-two {
+  grid-column: 2 span;
+}
+.output {
+  grid-column: 1 / -1;
+  background-color: rgb(65, 62, 62);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.output .previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+.output .current-operand {
+  color: rgba(255, 255, 255, 1);
+  font-size: 2rem;
+}

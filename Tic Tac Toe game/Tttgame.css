@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-class {
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#play-text {
+  color: rgb(196, 106, 196);
+  padding: 20px;
+}
+#restart-btn {
+  height: 3rem;
+  width: 7rem;
+  background-color: transparent;
+  border: 1px solid rgb(238, 130, 238);
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: transform 300ms ease;
+}
+#restart-btn:hover {
+  transform: scale(1.2);
+  border: 1px solid rgb(107, 233, 107);
+  box-shadow: -10px -10px 20px lightgreen;
+}
+#game-board {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: purple;
+  cursor: pointer;
+}
